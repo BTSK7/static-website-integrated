@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="dup2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="section1">
+        <div class="bg imgsec1">
+            <h1>Hi</h1>
+            <p>Today we will discuss about the languages to learn in web devolopment</p>
+            <button onclick="display('section2')"> Page 2 </button>
+        </div>
+    </div>
+
+    <div id="section2">
+        <div class=" d-flex flex-column justify-content-center imgsec2">
+            <div class=" m-2 frontend-card " style="text-align: start">
+                <h1>Front-End</h1>
+                <div style="text-align: start">
+                    <ul class="lst">
+                        <li><a href="https://www.w3schools.com/html/default.asp" style="color :azure" class="txtd">Html</a></li>
+                        <li><a href="https://www.w3schools.com/css/default.asp" style="color :azure" class="txtd">Css</a></li>
+                        <li><a href="https://www.w3schools.com/js/default.asp" style="color :azure" class="txtd">JAVA Script</a></li>
+                        <li><a href="https://www.w3schools.com/react/default.asp" style="color :azure" class="txtd">React</a></li>
+                    </ul>
+                </div>
+                <p>Note: Tap on it to visit the website</p>
+                <button class="m-2" onclick="display('section3')"> Page 3</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="section3">
+        <div class=" d-flex flex-column justify-content-center imgsec3">
+            <div class=" m-2 backend-card" style="text-align: start">
+                <h1>Back-End</h1>
+                <div style="text-align: start">
+                    <ul class="lst">
+                        <li><a href="https://www.w3schools.com/python/default.asp" style="color :azure" class="txtd">Python</a></li>
+                        <li><a href="https://www.w3schools.com/java/default.asp" style="color :azure" class="txtd">Java</a></li>
+                        <li><a href="https://www.w3schools.com/django/index.php" style="color :azure" class="txtd">Django</a></li>
+                        <li><a href="https://www.w3schools.com/sql/default.asp" style="color :azure" class="txtd">Sql</a></li>
+                    </ul>
+                </div>
+                <p>Note: Tap on it to visit the website</p>
+                <button class="m-2" onclick="display('section1')">Thank You :)</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
